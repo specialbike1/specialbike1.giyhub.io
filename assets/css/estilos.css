@@ -1,0 +1,150 @@
+#cuadro_central{
+    display: flex;
+    
+}
+
+.imgi img{
+   width: 400px;
+   height: 400px;
+   
+
+}
+.imgi1 img{
+    width: 400px;
+    height: 400px;
+ 
+ }
+ .imgi2 img{
+    width: 400px;
+    height: 400px;
+ 
+ }
+
+.our-advantages img{ 
+    width: 300px;
+    height: 310px;
+}
+.our-advantages h5{
+    color: #ffffff;
+}
+.container .title2{
+    color: #ffffff;
+}
+
+
+.btn-whatsapp{
+    background-color: #25d366;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+   right: 0.5%;
+   bottom: 80px;
+   cursor: pointer;
+}
+.btn-whatsapp img{
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*:::::footer*/
+
+/*Aquí debajo va el FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Images/background-footer.svg);
+    background-size: cover;
+
+    background-color: #192330;
+   
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    -webkit-box-align: center;
+}
+
+.box__footer .logo img{
+    width: 180px;
+   
+    
+}
+.box__footer .terms h4{
+    color: #ffffff ;
+    font-size: 30px;
+    
+    }
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+.box__footer .terms i{
+    
+    color: #ffffff;
+    
+}
+.box__footer .terms i:hover{
+    
+    color: #ed3237;
+    
+}
+.box__footer h2{
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #ed3237;
+    font-weight: 600;
+    
+}
+.box__footer i{
+    color: #ffffff;
+    }
+.box__footer a{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+    color: #ed3237;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #92989e;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
+}
